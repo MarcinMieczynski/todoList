@@ -1,0 +1,41 @@
+.App {
+  max-width: 450px;
+  width: 100%;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.input_NewTodoForm {
+  height: 30px;
+  font-size: 15px;
+}
+.button_NewTodoForm {
+  height: 35px;
+  padding-right: 20px;
+  background-color: #0069d9;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #0069d9;
+  transition: all 0.2s;
+}
+.button_NewTodoForm:hover {
+  background-color: #0058e8;
+}
+.button_App {
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0c4383;
+  color: white;
+  border: 1px solid #0c4383;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.button_App:hover {
+  background-color: #0b3172;
+}
+.App > h3.h3_App {
+  font-size: 40px;
+}

@@ -1,0 +1,31 @@
+.input_TodoItem {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.li_TodoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 10px;
+  list-style-type: none;
+  background-color: rgba(26, 26, 0, 0.5);
+  margin: 20px 40px 20px 10px;
+  height: 40px;
+}
+.button_TodoItem {
+  background-color: #dc3545;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dc3545;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.button_TodoItem:hover {
+  background-color: #d50808;
+}
